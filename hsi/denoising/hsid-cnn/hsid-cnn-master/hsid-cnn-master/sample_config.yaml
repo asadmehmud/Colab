@@ -1,0 +1,12 @@
+lr: 0.0001
+train_file: './data/train.txt'
+valid_file: './data/valid.txt'
+batch_size: 2
+ckpt_path: False
+K: 24
+noise_level: 1.0
+epochs: 100
+num_conv3d_filters: 20 
+num_conv2d_filters: 20
+num_convolutionblock_filters: 20
+crop_size: 20
